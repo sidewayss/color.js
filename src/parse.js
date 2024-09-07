@@ -136,8 +136,9 @@ export default function parse (str, options) {
 					break;
 				}
 			}
-			if (found)
+			if (found) {
 				break;
+			}
 		}
 	}
 
